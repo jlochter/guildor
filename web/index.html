@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guildor</title>
+  <meta name="description" content="Prepare your guild for one final battle. Every run is replayable and verifiable.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚔️</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#">Guildor</a>
+    <nav>
+      <a href="#" data-nav="play">Play</a>
+      <a href="#verify" data-nav="verify">Verify a run</a>
+      <a href="https://github.com/jlochter/guildor" rel="noopener">Source</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="banner">Prototype rules. The real game is still being designed; scores here are for testing the pipeline.</p>
+
+    <!-- PLAY -->
+    <section id="view-play" hidden>
+      <div class="seedbar">
+        <div>
+          <span class="label">Seed</span>
+          <code id="seed-label"></code>
+        </div>
+        <div class="seed-actions">
+          <button type="button" class="ghost" id="btn-daily">Daily</button>
+          <button type="button" class="ghost" id="btn-random">Random</button>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <div class="turn-head">
+            <h2 id="turn-title">Turn 1 of 5</h2>
+            <div class="pips" id="pips" aria-hidden="true"></div>
+          </div>
+
+          <dl class="stats" id="stats"></dl>
+
+          <p class="hint" id="yield-hint"></p>
+
+          <div class="alloc" id="alloc"></div>
+
+          <div class="turn-foot">
+            <span id="energy-left" class="energy"></span>
+            <button type="button" id="btn-end" class="primary">End turn</button>
+          </div>
+        </div>
+
+        <aside class="side">
+          <div class="card">
+            <h3>Rules</h3>
+            <ul class="rules" id="rules"></ul>
+          </div>
+          <div class="card">
+            <h3>Log</h3>
+            <ol class="log" id="log"><li class="muted">No turns yet.</li></ol>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- RESULT -->
+    <section id="view-result" hidden>
+      <div class="card result">
+        <p class="label">Damage dealt to the villain</p>
+        <p class="score" id="res-score">0</p>
+        <p class="muted" id="res-detail"></p>
+
+        <div class="proof">
+          <p class="label">Run proof (final hash)</p>
+          <code class="hash" id="res-hash"></code>
+          <p class="muted small">This hash covers the seed, every action and every state. Anyone can replay your link and get the same hash, and editing any part of the run changes it.</p>
+        </div>
+
+        <div class="actions">
+          <button type="button" class="primary" id="btn-copy-link">Copy share link</button>
+          <button type="button" id="btn-download">Download run (.json)</button>
+          <a class="button" id="lnk-verify" href="#verify">Open in verifier</a>
+          <button type="button" class="ghost" id="btn-again">Play again</button>
+        </div>
+        <p class="toast" id="toast" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- VERIFY -->
+    <section id="view-verify" hidden>
+      <div class="card">
+        <h2>Verify a run</h2>
+        <p class="muted">Paste a share link, a share code or a run file. The game is replayed from scratch in your browser; nothing in the run is trusted.</p>
+        <textarea id="verify-input" rows="4" spellcheck="false" placeholder="https://…/#run=eyJ…   or   { &quot;format&quot;: &quot;guildor.run/1&quot;, … }"></textarea>
+        <div class="actions">
+          <button type="button" class="primary" id="btn-verify">Verify</button>
+          <label class="button">Upload .json<input type="file" id="verify-file" accept=".json,application/json" hidden></label>
+        </div>
+      </div>
+      <div id="verify-out"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Every run is deterministic: <code>(rules, seed, actions)</code> → states → score, chained with SHA-256. Check one offline with <code>python -m guildor verify-link "&lt;link&gt;"</code>.</p>
+  </footer>
+</body>
+</html>

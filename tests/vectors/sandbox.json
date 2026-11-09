@@ -1,0 +1,2242 @@
+[
+ {
+  "seed": "test-seed-1",
+  "actions": [
+   {
+    "gather": 3,
+    "hire": 3,
+    "craft": 0
+   },
+   {
+    "gather": 0,
+    "hire": 0,
+    "craft": 6
+   },
+   {
+    "gather": 0,
+    "hire": 6,
+    "craft": 0
+   },
+   {
+    "gather": 0,
+    "hire": 4,
+    "craft": 2
+   },
+   {
+    "gather": 5,
+    "hire": 0,
+    "craft": 1
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "test-seed-1",
+   "genesis_hash": "sha256:b13aaa0fc9c68f8893616b174f41184aa8ae0fa49e5b809bc5d819a0d852fc2e",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 3,
+      "hire": 3,
+      "craft": 0
+     },
+     "state_hash": "sha256:c32178b43e7bf72d919a736868dc44539e0559f85b2f521a1c5e0acc338e4fba"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 0,
+      "hire": 0,
+      "craft": 6
+     },
+     "state_hash": "sha256:86b185cd4fbafd31b9dbcac658a7fa1c2300f6af6eacb13e51139a84d59e54d9"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 0,
+      "hire": 6,
+      "craft": 0
+     },
+     "state_hash": "sha256:629b8830f257fba656725b9e90edb2fbc64dd2683969109a1f9a7d67231530e0"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 0,
+      "hire": 4,
+      "craft": 2
+     },
+     "state_hash": "sha256:506ce8c211855f3129039ace3624c47098a62a97f0a78f55d52ce3c721b47c63"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 5,
+      "hire": 0,
+      "craft": 1
+     },
+     "state_hash": "sha256:8e4f8eb38747a29a0ca2a63dcafe3cbaaaa5600eb884ae200b866baef89e0484"
+    }
+   ],
+   "final_hash": "sha256:8e4f8eb38747a29a0ca2a63dcafe3cbaaaa5600eb884ae200b866baef89e0484",
+   "final_state": {
+    "turn": 5,
+    "materials": 0,
+    "incoming": 5,
+    "warriors": 5,
+    "gear": 0,
+    "yield": 3
+   },
+   "score": {
+    "damage": 10
+   },
+   "run_hash": "sha256:66de5c24af24a14644533d0563f85c10a5a6bdf8c0da5b4646cdf25baccb95e2"
+  },
+  "share": "eyJhIjpbWzMsMywwXSxbMCwwLDZdLFswLDYsMF0sWzAsNCwyXSxbNSwwLDFdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6OGU0ZjhlYjM4NzQ3YTI5YTBjYTJhNjNkY2FmZTNjYmFhYWE1NjAwZWI4ODRhZTIwMGI4NjZiYWVmODllMDQ4NCIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidGVzdC1zZWVkLTEiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "daily-2026-11-09",
+  "actions": [
+   {
+    "gather": 0,
+    "hire": 0,
+    "craft": 6
+   },
+   {
+    "gather": 2,
+    "hire": 4,
+    "craft": 0
+   },
+   {
+    "gather": 0,
+    "hire": 1,
+    "craft": 5
+   },
+   {
+    "gather": 0,
+    "hire": 6,
+    "craft": 0
+   },
+   {
+    "gather": 0,
+    "hire": 2,
+    "craft": 4
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "daily-2026-11-09",
+   "genesis_hash": "sha256:7d85592ebd471f9ddc380070b6b97f2ddb22ca614b0aa0c64cd24faf756fd48b",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 0,
+      "hire": 0,
+      "craft": 6
+     },
+     "state_hash": "sha256:02237d1250b01986862aa3c5dd19c71c7d1bd365e63d2ae5e2c2626db4d2dbdf"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 2,
+      "hire": 4,
+      "craft": 0
+     },
+     "state_hash": "sha256:c81c23119df3ec98d6da81f73de802a5a7562dde6b24663c332080e37faf4ffd"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 0,
+      "hire": 1,
+      "craft": 5
+     },
+     "state_hash": "sha256:5b9dee6356a0358a78d8e69b0900bfee1e56a5d265850f66f2326e754f585e47"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 0,
+      "hire": 6,
+      "craft": 0
+     },
+     "state_hash": "sha256:a56588b8e5169fb9ba625d938099137f501347818c41a0e91c2e3322d7092249"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 0,
+      "hire": 2,
+      "craft": 4
+     },
+     "state_hash": "sha256:d18fcdf05a7e3c04527011ee05bff1d058e45f298229d620781e871765ed1314"
+    }
+   ],
+   "final_hash": "sha256:d18fcdf05a7e3c04527011ee05bff1d058e45f298229d620781e871765ed1314",
+   "final_state": {
+    "turn": 5,
+    "materials": 1,
+    "incoming": 0,
+    "warriors": 2,
+    "gear": 1,
+    "yield": 2
+   },
+   "score": {
+    "damage": 7
+   },
+   "run_hash": "sha256:9f8905d584268a478b79436382d3e4ac014778dd362838b0aa22e643657a47e4"
+  },
+  "share": "eyJhIjpbWzAsMCw2XSxbMiw0LDBdLFswLDEsNV0sWzAsNiwwXSxbMCwyLDRdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6ZDE4ZmNkZjA1YTdlM2MwNDUyNzAxMWVlMDViZmYxZDA1OGU0NWYyOTgyMjlkNjIwNzgxZTg3MTc2NWVkMTMxNCIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoiZGFpbHktMjAyNi0xMS0wOSIsInYiOiIwLjEuMCJ9"
+ },
+ {
+  "seed": "",
+  "actions": [
+   {
+    "gather": 4,
+    "hire": 1,
+    "craft": 1
+   },
+   {
+    "gather": 3,
+    "hire": 1,
+    "craft": 2
+   },
+   {
+    "gather": 1,
+    "hire": 2,
+    "craft": 3
+   },
+   {
+    "gather": 0,
+    "hire": 1,
+    "craft": 5
+   },
+   {
+    "gather": 0,
+    "hire": 5,
+    "craft": 1
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "",
+   "genesis_hash": "sha256:0b1789624c871fdad60e7e3697bfc2d89ef64cda840bb4d179af82676f02e20f",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 4,
+      "hire": 1,
+      "craft": 1
+     },
+     "state_hash": "sha256:35e5b38394dd85f08c8c8697703a5699f63d1ea9118369f8bc88386fd43c57c4"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 3,
+      "hire": 1,
+      "craft": 2
+     },
+     "state_hash": "sha256:0eb722c1e77783dfa605585f4cb8e8fc0a8c56483c447cc4e58330ba121ee433"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 1,
+      "hire": 2,
+      "craft": 3
+     },
+     "state_hash": "sha256:2ca58374076f5f055eeb3bfdb189426a12590fdd16c81719901f57c53b1adb29"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 0,
+      "hire": 1,
+      "craft": 5
+     },
+     "state_hash": "sha256:df17f725b6d0fc63271728a34d9f1d6884dffe86022a45fc4132ccb620e3be92"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 0,
+      "hire": 5,
+      "craft": 1
+     },
+     "state_hash": "sha256:4d1afaabc7f0b62aa0a1c6caafb6b9bbd8c916fec170a12348f848f6fbfad81d"
+    }
+   ],
+   "final_hash": "sha256:4d1afaabc7f0b62aa0a1c6caafb6b9bbd8c916fec170a12348f848f6fbfad81d",
+   "final_state": {
+    "turn": 5,
+    "materials": 0,
+    "incoming": 0,
+    "warriors": 7,
+    "gear": 2,
+    "yield": 2
+   },
+   "score": {
+    "damage": 20
+   },
+   "run_hash": "sha256:10c86ff6ea503d94dffb034337d96dc4f2da39264bdb0ca29579f44e926f9f15"
+  },
+  "share": "eyJhIjpbWzQsMSwxXSxbMywxLDJdLFsxLDIsM10sWzAsMSw1XSxbMCw1LDFdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6NGQxYWZhYWJjN2YwYjYyYWEwYTFjNmNhYWZiNmI5YmJkOGM5MTZmZWMxNzBhMTIzNDhmODQ4ZjZmYmZhZDgxZCIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoiIiwidiI6IjAuMS4wIn0"
+ },
+ {
+  "seed": "ünïcødé ⚔️ seed",
+  "actions": [
+   {
+    "gather": 0,
+    "hire": 6,
+    "craft": 0
+   },
+   {
+    "gather": 3,
+    "hire": 1,
+    "craft": 2
+   },
+   {
+    "gather": 0,
+    "hire": 1,
+    "craft": 5
+   },
+   {
+    "gather": 4,
+    "hire": 1,
+    "craft": 1
+   },
+   {
+    "gather": 0,
+    "hire": 3,
+    "craft": 3
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "ünïcødé ⚔️ seed",
+   "genesis_hash": "sha256:326b4197fe5a14e10c3b5124c7563bb886411b3ba50c1e028f85fb1eab39a288",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 0,
+      "hire": 6,
+      "craft": 0
+     },
+     "state_hash": "sha256:6db982a528aa5a900a9db579c96389502bcece19a95608191188a0e28fd42f5e"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 3,
+      "hire": 1,
+      "craft": 2
+     },
+     "state_hash": "sha256:8b8d62f2351403c6cbbd9120df709ba9f678613be5cd521a633ef25195556724"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 0,
+      "hire": 1,
+      "craft": 5
+     },
+     "state_hash": "sha256:cb7403e51cf58ea8c895e3d46e75753e49865e8f0e6be7be94ace4000828d947"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 4,
+      "hire": 1,
+      "craft": 1
+     },
+     "state_hash": "sha256:b675c14ba733342db198a4c549a867b6860fde09401b8a07cd658cb95c2b1718"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 0,
+      "hire": 3,
+      "craft": 3
+     },
+     "state_hash": "sha256:c7d254c86092cadae44aa9129565f088457a4cd9d5187c3d3cb85bac52fa8889"
+    }
+   ],
+   "final_hash": "sha256:c7d254c86092cadae44aa9129565f088457a4cd9d5187c3d3cb85bac52fa8889",
+   "final_state": {
+    "turn": 5,
+    "materials": 13,
+    "incoming": 0,
+    "warriors": 3,
+    "gear": 1,
+    "yield": 1
+   },
+   "score": {
+    "damage": 9
+   },
+   "run_hash": "sha256:1c074e441956ee3f98f306ccdb763ce18d0b9cb79b12ff2702feaab61f998bf3"
+  },
+  "share": "eyJhIjpbWzAsNiwwXSxbMywxLDJdLFswLDEsNV0sWzQsMSwxXSxbMCwzLDNdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6YzdkMjU0Yzg2MDkyY2FkYWU0NGFhOTEyOTU2NWYwODg0NTdhNGNkOWQ1MTg3YzNkM2NiODViYWM1MmZhODg4OSIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoiw7xuw69jw7hkw6kg4pqU77iPIHNlZWQiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "actions": [
+   {
+    "gather": 4,
+    "hire": 1,
+    "craft": 1
+   },
+   {
+    "gather": 0,
+    "hire": 4,
+    "craft": 2
+   },
+   {
+    "gather": 0,
+    "hire": 4,
+    "craft": 2
+   },
+   {
+    "gather": 2,
+    "hire": 4,
+    "craft": 0
+   },
+   {
+    "gather": 0,
+    "hire": 4,
+    "craft": 2
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "genesis_hash": "sha256:d0dd48f290f95880a414776b52d0d7f516343fda7f5168b3c003be94acd4308c",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 4,
+      "hire": 1,
+      "craft": 1
+     },
+     "state_hash": "sha256:f20dc3b4b774ee1a794a4e15785f0cca7c382a0986efad8e01006d91a73ef94d"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 0,
+      "hire": 4,
+      "craft": 2
+     },
+     "state_hash": "sha256:9cc3a26a05b172a4dc949c4c4f0650760f8b2756b04ef8d88c8bc7426ceefe9f"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 0,
+      "hire": 4,
+      "craft": 2
+     },
+     "state_hash": "sha256:dc2e0623086493a8ea3c88862b9fc1ad365d807a708c6be165517818dd73a231"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 2,
+      "hire": 4,
+      "craft": 0
+     },
+     "state_hash": "sha256:9b2d313486d378bfc60ba815f92ea572808bd8354682394248b4c393ed850d94"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 0,
+      "hire": 4,
+      "craft": 2
+     },
+     "state_hash": "sha256:16db76b66f8c408f2dec96868ae999d73792a34b7ab6f7322d49f8d82737c272"
+    }
+   ],
+   "final_hash": "sha256:16db76b66f8c408f2dec96868ae999d73792a34b7ab6f7322d49f8d82737c272",
+   "final_state": {
+    "turn": 5,
+    "materials": 7,
+    "incoming": 0,
+    "warriors": 6,
+    "gear": 1,
+    "yield": 3
+   },
+   "score": {
+    "damage": 15
+   },
+   "run_hash": "sha256:57cceda0458b3168570f540e031be9b39cc8653c4485e77bd5052bfaae347e2b"
+  },
+  "share": "eyJhIjpbWzQsMSwxXSxbMCw0LDJdLFswLDQsMl0sWzIsNCwwXSxbMCw0LDJdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6MTZkYjc2YjY2ZjhjNDA4ZjJkZWM5Njg2OGFlOTk5ZDczNzkyYTM0YjdhYjZmNzMyMmQ0OWY4ZDgyNzM3YzI3MiIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoieHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHgiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-0",
+  "actions": [
+   {
+    "gather": 2,
+    "hire": 3,
+    "craft": 1
+   },
+   {
+    "gather": 3,
+    "hire": 3,
+    "craft": 0
+   },
+   {
+    "gather": 2,
+    "hire": 0,
+    "craft": 4
+   },
+   {
+    "gather": 1,
+    "hire": 4,
+    "craft": 1
+   },
+   {
+    "gather": 1,
+    "hire": 2,
+    "craft": 3
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-0",
+   "genesis_hash": "sha256:933286a403235ae4db44214ec13dced4ecdd59a91155700fd6c54cd6d98112ad",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 2,
+      "hire": 3,
+      "craft": 1
+     },
+     "state_hash": "sha256:f4290dea4b3f1ab0a79d963657d73894872f5e6064dc5798d5e2ef905980fd08"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 3,
+      "hire": 3,
+      "craft": 0
+     },
+     "state_hash": "sha256:a8fa6b199c19139eddfc3b64f1619a8abf3485e3f866881683dc7f36aafc17f3"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 2,
+      "hire": 0,
+      "craft": 4
+     },
+     "state_hash": "sha256:ca177f3e8455156c9711f49f715877081f1934c7e31edb6c135589aff9cc6eb6"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 1,
+      "hire": 4,
+      "craft": 1
+     },
+     "state_hash": "sha256:3a2f6270104181e768cc3b2ae306d9ed9ca6d4a0aa8213711122156966627a7b"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 1,
+      "hire": 2,
+      "craft": 3
+     },
+     "state_hash": "sha256:fcb6729921bb17fd3fd369caa03b61971cb4ab8d8039b365c94bc974ee4268f6"
+    }
+   ],
+   "final_hash": "sha256:fcb6729921bb17fd3fd369caa03b61971cb4ab8d8039b365c94bc974ee4268f6",
+   "final_state": {
+    "turn": 5,
+    "materials": 2,
+    "incoming": 1,
+    "warriors": 5,
+    "gear": 2,
+    "yield": 1
+   },
+   "score": {
+    "damage": 16
+   },
+   "run_hash": "sha256:9958c001d5ecce25016cf170a24315b76afc1127ca3fbd07b771ff240d236111"
+  },
+  "share": "eyJhIjpbWzIsMywxXSxbMywzLDBdLFsyLDAsNF0sWzEsNCwxXSxbMSwyLDNdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6ZmNiNjcyOTkyMWJiMTdmZDNmZDM2OWNhYTAzYjYxOTcxY2I0YWI4ZDgwMzliMzY1Yzk0YmM5NzRlZTQyNjhmNiIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTAiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-1",
+  "actions": [
+   {
+    "gather": 4,
+    "hire": 1,
+    "craft": 1
+   },
+   {
+    "gather": 0,
+    "hire": 4,
+    "craft": 2
+   },
+   {
+    "gather": 0,
+    "hire": 0,
+    "craft": 6
+   },
+   {
+    "gather": 1,
+    "hire": 1,
+    "craft": 4
+   },
+   {
+    "gather": 3,
+    "hire": 2,
+    "craft": 1
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-1",
+   "genesis_hash": "sha256:8de3b5fd7f47264b3a999869b4ed8e3978ed53ac3e9adf4e83ea958d389718aa",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 4,
+      "hire": 1,
+      "craft": 1
+     },
+     "state_hash": "sha256:10a1ed2414a9f4e5bc2ef1b9bd2f29db83341d9d8c9f02e842a125f50d8f564d"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 0,
+      "hire": 4,
+      "craft": 2
+     },
+     "state_hash": "sha256:55bf6212afd8ab303f17ada9a6eb04ea2c6a29f551eee23ed5658dd618b7e4a2"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 0,
+      "hire": 0,
+      "craft": 6
+     },
+     "state_hash": "sha256:313e2551386b26e6c2dac01692f128b2dabdaac19f4bdf271cade7d3298e2e4b"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 1,
+      "hire": 1,
+      "craft": 4
+     },
+     "state_hash": "sha256:e908a32c60c91296d1fa494e746aa7d1f7905b1bdc5f7282ef85829fefd3021c"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 3,
+      "hire": 2,
+      "craft": 1
+     },
+     "state_hash": "sha256:28e12a608da130e8f829b409b3c63b15723b7f892ce650f9b434ea9a2900b8fb"
+    }
+   ],
+   "final_hash": "sha256:28e12a608da130e8f829b409b3c63b15723b7f892ce650f9b434ea9a2900b8fb",
+   "final_state": {
+    "turn": 5,
+    "materials": 2,
+    "incoming": 6,
+    "warriors": 3,
+    "gear": 2,
+    "yield": 1
+   },
+   "score": {
+    "damage": 12
+   },
+   "run_hash": "sha256:585527fd73f61e48d0efea2b60d2b8847e2aa034735a74c572721c0d1928f6eb"
+  },
+  "share": "eyJhIjpbWzQsMSwxXSxbMCw0LDJdLFswLDAsNl0sWzEsMSw0XSxbMywyLDFdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6MjhlMTJhNjA4ZGExMzBlOGY4MjliNDA5YjNjNjNiMTU3MjNiN2Y4OTJjZTY1MGY5YjQzNGVhOWEyOTAwYjhmYiIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTEiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-2",
+  "actions": [
+   {
+    "gather": 3,
+    "hire": 2,
+    "craft": 1
+   },
+   {
+    "gather": 0,
+    "hire": 1,
+    "craft": 5
+   },
+   {
+    "gather": 0,
+    "hire": 4,
+    "craft": 2
+   },
+   {
+    "gather": 1,
+    "hire": 2,
+    "craft": 3
+   },
+   {
+    "gather": 0,
+    "hire": 4,
+    "craft": 2
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-2",
+   "genesis_hash": "sha256:ff3fc5daa5b5bfdc542bc543d88504be7e88c14bd0fc11c9d443f3fe8d09ad2d",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 3,
+      "hire": 2,
+      "craft": 1
+     },
+     "state_hash": "sha256:0f1e75da0b9004c3864587f29db62e6b2304b3cf69de66d908fab1aebb3f8791"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 0,
+      "hire": 1,
+      "craft": 5
+     },
+     "state_hash": "sha256:1eb11a2f938a030707ab2d36e79859743989958b8058163188c2224be9c5baf9"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 0,
+      "hire": 4,
+      "craft": 2
+     },
+     "state_hash": "sha256:ff7b7eca23a0caa82ea3094d7215ff1eaaaaf52eb4f41d6a6e873a39b6460b1e"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 1,
+      "hire": 2,
+      "craft": 3
+     },
+     "state_hash": "sha256:fb455192d9dce6824f491b81fa1af38ce8f17a5f8e39bfa1b73750fe85ac6eac"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 0,
+      "hire": 4,
+      "craft": 2
+     },
+     "state_hash": "sha256:f9c21d679edbcf35e336e5a033a8ee498b9f2a0e1bab598307a65f21db9e8359"
+    }
+   ],
+   "final_hash": "sha256:f9c21d679edbcf35e336e5a033a8ee498b9f2a0e1bab598307a65f21db9e8359",
+   "final_state": {
+    "turn": 5,
+    "materials": 3,
+    "incoming": 0,
+    "warriors": 3,
+    "gear": 0,
+    "yield": 3
+   },
+   "score": {
+    "damage": 6
+   },
+   "run_hash": "sha256:cccb393ff7dfcfe14a52c561b07d0e1d925724af7d5e9c1ffe7558ec0b4bda31"
+  },
+  "share": "eyJhIjpbWzMsMiwxXSxbMCwxLDVdLFswLDQsMl0sWzEsMiwzXSxbMCw0LDJdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6ZjljMjFkNjc5ZWRiY2YzNWUzMzZlNWEwMzNhOGVlNDk4YjlmMmEwZTFiYWI1OTgzMDdhNjVmMjFkYjllODM1OSIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTIiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-3",
+  "actions": [
+   {
+    "gather": 1,
+    "hire": 0,
+    "craft": 5
+   },
+   {
+    "gather": 0,
+    "hire": 2,
+    "craft": 4
+   },
+   {
+    "gather": 0,
+    "hire": 6,
+    "craft": 0
+   },
+   {
+    "gather": 1,
+    "hire": 3,
+    "craft": 2
+   },
+   {
+    "gather": 2,
+    "hire": 3,
+    "craft": 1
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-3",
+   "genesis_hash": "sha256:0327af90fd7646ed5f0c7f96e778dd0fa963b9b98fb882d459d4e699951172e0",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 1,
+      "hire": 0,
+      "craft": 5
+     },
+     "state_hash": "sha256:ee060bf9ff27e65faea5bd291fd66a1bac613e40bc716eb70438788e1a197816"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 0,
+      "hire": 2,
+      "craft": 4
+     },
+     "state_hash": "sha256:728388a91f5079dd6fb94bcd95a6fe9cb5ebd713c729d328e651eccf5cf06ed1"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 0,
+      "hire": 6,
+      "craft": 0
+     },
+     "state_hash": "sha256:c83d77f2f6fda0d132e488325df1a0c3eada34b4fadf271d87aa99e3b26f6b3d"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 1,
+      "hire": 3,
+      "craft": 2
+     },
+     "state_hash": "sha256:7916f2f8bfd9fa39e3a9409e88b63119db91e26c09f9c2d552f41f4a07605b4c"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 2,
+      "hire": 3,
+      "craft": 1
+     },
+     "state_hash": "sha256:cb48b0d086c3f5fafb35e5a35c2819f936217e99593cd9f0017169ac3c2ce664"
+    }
+   ],
+   "final_hash": "sha256:cb48b0d086c3f5fafb35e5a35c2819f936217e99593cd9f0017169ac3c2ce664",
+   "final_state": {
+    "turn": 5,
+    "materials": 1,
+    "incoming": 6,
+    "warriors": 1,
+    "gear": 1,
+    "yield": 2
+   },
+   "score": {
+    "damage": 5
+   },
+   "run_hash": "sha256:2922f86fb507e858a644ca7d8f016a242e8fda1da11ada0ccc3fffc7d1bbb40c"
+  },
+  "share": "eyJhIjpbWzEsMCw1XSxbMCwyLDRdLFswLDYsMF0sWzEsMywyXSxbMiwzLDFdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6Y2I0OGIwZDA4NmMzZjVmYWZiMzVlNWEzNWMyODE5ZjkzNjIxN2U5OTU5M2NkOWYwMDE3MTY5YWMzYzJjZTY2NCIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTMiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-4",
+  "actions": [
+   {
+    "gather": 0,
+    "hire": 3,
+    "craft": 3
+   },
+   {
+    "gather": 2,
+    "hire": 1,
+    "craft": 3
+   },
+   {
+    "gather": 5,
+    "hire": 1,
+    "craft": 0
+   },
+   {
+    "gather": 0,
+    "hire": 1,
+    "craft": 5
+   },
+   {
+    "gather": 1,
+    "hire": 1,
+    "craft": 4
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-4",
+   "genesis_hash": "sha256:422312c31c43efd896c939674b77899bee1bd8254d7870df02a444a9813390d1",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 0,
+      "hire": 3,
+      "craft": 3
+     },
+     "state_hash": "sha256:89c75392b6bed70cdf35b37fa08543c0d5a2e2461f73711e4810fff653d9ae1e"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 2,
+      "hire": 1,
+      "craft": 3
+     },
+     "state_hash": "sha256:67a8a3284c714626dbdfd84acb903e72f8c5f81305955249b5f468dfc6d8241d"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 5,
+      "hire": 1,
+      "craft": 0
+     },
+     "state_hash": "sha256:caf7e793466ac22e69d97b2aff6c01f2b6a0d0e5d9ba648ba8e5113f5153cda3"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 0,
+      "hire": 1,
+      "craft": 5
+     },
+     "state_hash": "sha256:03dead6bf5c348f5a831e660e139c497f5497bdf27f4d011246999cc0fc00570"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 1,
+      "hire": 1,
+      "craft": 4
+     },
+     "state_hash": "sha256:f9d1e9c1c5adbe84ce0e3875f170c7a23b37a71ca3f9de83c9d33d40133f01de"
+    }
+   ],
+   "final_hash": "sha256:f9d1e9c1c5adbe84ce0e3875f170c7a23b37a71ca3f9de83c9d33d40133f01de",
+   "final_state": {
+    "turn": 5,
+    "materials": 0,
+    "incoming": 3,
+    "warriors": 4,
+    "gear": 1,
+    "yield": 1
+   },
+   "score": {
+    "damage": 11
+   },
+   "run_hash": "sha256:71faea20a227cdd912ba810a317248344e3afc331115c878002af67be1387ee1"
+  },
+  "share": "eyJhIjpbWzAsMywzXSxbMiwxLDNdLFs1LDEsMF0sWzAsMSw1XSxbMSwxLDRdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6ZjlkMWU5YzFjNWFkYmU4NGNlMGUzODc1ZjE3MGM3YTIzYjM3YTcxY2EzZjlkZTgzYzlkMzNkNDAxMzNmMDFkZSIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTQiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-5",
+  "actions": [
+   {
+    "gather": 2,
+    "hire": 4,
+    "craft": 0
+   },
+   {
+    "gather": 1,
+    "hire": 5,
+    "craft": 0
+   },
+   {
+    "gather": 3,
+    "hire": 3,
+    "craft": 0
+   },
+   {
+    "gather": 0,
+    "hire": 4,
+    "craft": 2
+   },
+   {
+    "gather": 3,
+    "hire": 3,
+    "craft": 0
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-5",
+   "genesis_hash": "sha256:0a1edb6599793d5bc296dd2d52682040e58a0b87067d33b080c4ca25a9c1e4f4",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 2,
+      "hire": 4,
+      "craft": 0
+     },
+     "state_hash": "sha256:23f4b3e9e8e984e26ae5e5d292db32a853e51b214a8bd3f2626adf1c2c71b2b2"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 1,
+      "hire": 5,
+      "craft": 0
+     },
+     "state_hash": "sha256:1e3e677e2580301ae833c8a60f78eb6ba44ecf4b97e931a122ca6844faf6d2b5"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 3,
+      "hire": 3,
+      "craft": 0
+     },
+     "state_hash": "sha256:612767578d37b02fc0051015b9f70486cb7517b78106f9bf6fa24175fb7b90f6"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 0,
+      "hire": 4,
+      "craft": 2
+     },
+     "state_hash": "sha256:e018f274ba400ff0442cbea1b2cade3ac45075fd06c1201b914b9ff8fa2f0102"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 3,
+      "hire": 3,
+      "craft": 0
+     },
+     "state_hash": "sha256:8dc88e9664be9f4c2b650844837eb1ed9fa5d93e954fffc4b46998dc308c666b"
+    }
+   ],
+   "final_hash": "sha256:8dc88e9664be9f4c2b650844837eb1ed9fa5d93e954fffc4b46998dc308c666b",
+   "final_state": {
+    "turn": 5,
+    "materials": 1,
+    "incoming": 6,
+    "warriors": 6,
+    "gear": 0,
+    "yield": 1
+   },
+   "score": {
+    "damage": 12
+   },
+   "run_hash": "sha256:fe107f1fdba3093e225d0bddd3a604d50b887de5956a2486112a89f28c213e75"
+  },
+  "share": "eyJhIjpbWzIsNCwwXSxbMSw1LDBdLFszLDMsMF0sWzAsNCwyXSxbMywzLDBdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6OGRjODhlOTY2NGJlOWY0YzJiNjUwODQ0ODM3ZWIxZWQ5ZmE1ZDkzZTk1NGZmZmM0YjQ2OTk4ZGMzMDhjNjY2YiIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTUiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-6",
+  "actions": [
+   {
+    "gather": 2,
+    "hire": 1,
+    "craft": 3
+   },
+   {
+    "gather": 2,
+    "hire": 2,
+    "craft": 2
+   },
+   {
+    "gather": 3,
+    "hire": 3,
+    "craft": 0
+   },
+   {
+    "gather": 0,
+    "hire": 3,
+    "craft": 3
+   },
+   {
+    "gather": 3,
+    "hire": 3,
+    "craft": 0
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-6",
+   "genesis_hash": "sha256:c5002685476906114102764dc1f467140e1241445911ce03a97421699224433a",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 2,
+      "hire": 1,
+      "craft": 3
+     },
+     "state_hash": "sha256:18c10438d9fbb90435aa4ac5da114ddb37779bce2f814b9f9aa0d0d8b9745fae"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 2,
+      "hire": 2,
+      "craft": 2
+     },
+     "state_hash": "sha256:904504514be90b4dd6b411ccbdb26ee6c380f0de009a130022afb96eb2e94531"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 3,
+      "hire": 3,
+      "craft": 0
+     },
+     "state_hash": "sha256:6720a3c4d834e0d4ebede159f594124c9aecc60c03e6e508b048b280ae843b28"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 0,
+      "hire": 3,
+      "craft": 3
+     },
+     "state_hash": "sha256:71856a6bbefd6e51270c13886c4f681eb2977ec6ac318f374a4ebc0245d01aa8"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 3,
+      "hire": 3,
+      "craft": 0
+     },
+     "state_hash": "sha256:a4236144353eb3405455ffbe447bfe3fc24f7b6e5499ed94106817beccd1a9d3"
+    }
+   ],
+   "final_hash": "sha256:a4236144353eb3405455ffbe447bfe3fc24f7b6e5499ed94106817beccd1a9d3",
+   "final_state": {
+    "turn": 5,
+    "materials": 1,
+    "incoming": 6,
+    "warriors": 7,
+    "gear": 0,
+    "yield": 1
+   },
+   "score": {
+    "damage": 14
+   },
+   "run_hash": "sha256:aa14f54c503e56125118034e4a3903351b9798bf7ddf32a79ee7662ad5131d26"
+  },
+  "share": "eyJhIjpbWzIsMSwzXSxbMiwyLDJdLFszLDMsMF0sWzAsMywzXSxbMywzLDBdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6YTQyMzYxNDQzNTNlYjM0MDU0NTVmZmJlNDQ3YmZlM2ZjMjRmN2I2ZTU0OTllZDk0MTA2ODE3YmVjY2QxYTlkMyIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTYiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-7",
+  "actions": [
+   {
+    "gather": 6,
+    "hire": 0,
+    "craft": 0
+   },
+   {
+    "gather": 1,
+    "hire": 3,
+    "craft": 2
+   },
+   {
+    "gather": 3,
+    "hire": 2,
+    "craft": 1
+   },
+   {
+    "gather": 4,
+    "hire": 2,
+    "craft": 0
+   },
+   {
+    "gather": 3,
+    "hire": 3,
+    "craft": 0
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-7",
+   "genesis_hash": "sha256:6ca2c07c747c586c12629d2cde88cb1c597476165539557b525db68ff94cee23",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 6,
+      "hire": 0,
+      "craft": 0
+     },
+     "state_hash": "sha256:a5956398f346711df1023294514eda811fbb366d61a9b30adb6c1f728a31bd21"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 1,
+      "hire": 3,
+      "craft": 2
+     },
+     "state_hash": "sha256:b1dc8022f6d113640e38601db070707738ec838b4a6ddd1517d5e9c491e23e25"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 3,
+      "hire": 2,
+      "craft": 1
+     },
+     "state_hash": "sha256:a0f3a8487f2e317221869dd07fa50d7c615dee8e45bd437957c2dcddec586b23"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 4,
+      "hire": 2,
+      "craft": 0
+     },
+     "state_hash": "sha256:8b561944d92ec9b7380edcd82fa10f9b237b2244314f155d14004cc5880252e2"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 3,
+      "hire": 3,
+      "craft": 0
+     },
+     "state_hash": "sha256:6f6116b826a7a97705e7e67f46dcb1a8d84846f79104ee94f37aec88d2109b47"
+    }
+   ],
+   "final_hash": "sha256:6f6116b826a7a97705e7e67f46dcb1a8d84846f79104ee94f37aec88d2109b47",
+   "final_state": {
+    "turn": 5,
+    "materials": 8,
+    "incoming": 6,
+    "warriors": 9,
+    "gear": 1,
+    "yield": 3
+   },
+   "score": {
+    "damage": 21
+   },
+   "run_hash": "sha256:5b81cd4a8e2f06321e6623b531747e82a255c5f78f5cff9b60a1ef776066cbc7"
+  },
+  "share": "eyJhIjpbWzYsMCwwXSxbMSwzLDJdLFszLDIsMV0sWzQsMiwwXSxbMywzLDBdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6NmY2MTE2YjgyNmE3YTk3NzA1ZTdlNjdmNDZkY2IxYThkODQ4NDZmNzkxMDRlZTk0ZjM3YWVjODhkMjEwOWI0NyIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTciLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-8",
+  "actions": [
+   {
+    "gather": 2,
+    "hire": 0,
+    "craft": 4
+   },
+   {
+    "gather": 0,
+    "hire": 6,
+    "craft": 0
+   },
+   {
+    "gather": 1,
+    "hire": 2,
+    "craft": 3
+   },
+   {
+    "gather": 3,
+    "hire": 3,
+    "craft": 0
+   },
+   {
+    "gather": 0,
+    "hire": 4,
+    "craft": 2
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-8",
+   "genesis_hash": "sha256:6d0cde527916d1f5b2d8b926cfe1d45ea2521891d436301f91370b04935bc8c3",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 2,
+      "hire": 0,
+      "craft": 4
+     },
+     "state_hash": "sha256:c2b05346a0c7035864d8ce8a8e495416e32583b1dca949fc9987ad872cee2d7b"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 0,
+      "hire": 6,
+      "craft": 0
+     },
+     "state_hash": "sha256:d47e0f22f5da460ecacaef456f8371a9bff77f48c55f96da169cac9c161d0dfe"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 1,
+      "hire": 2,
+      "craft": 3
+     },
+     "state_hash": "sha256:e1614ad2a08a3ec7ec7e1e3251f19bc6cdf5ca31e597627b700aeac70c09cfa3"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 3,
+      "hire": 3,
+      "craft": 0
+     },
+     "state_hash": "sha256:aac83654d13f74acebfe151b592bcef27df9090d0123cb91388f7912749c7321"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 0,
+      "hire": 4,
+      "craft": 2
+     },
+     "state_hash": "sha256:b5bbf6c5d37909a1af76d0dabf423076f84d0e613497a2abac527207914b2526"
+    }
+   ],
+   "final_hash": "sha256:b5bbf6c5d37909a1af76d0dabf423076f84d0e613497a2abac527207914b2526",
+   "final_state": {
+    "turn": 5,
+    "materials": 7,
+    "incoming": 0,
+    "warriors": 2,
+    "gear": 2,
+    "yield": 2
+   },
+   "score": {
+    "damage": 10
+   },
+   "run_hash": "sha256:0aed0442896205384339ea3904f6a0cece37d0a46538c1c00ce5c74b23c59299"
+  },
+  "share": "eyJhIjpbWzIsMCw0XSxbMCw2LDBdLFsxLDIsM10sWzMsMywwXSxbMCw0LDJdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6YjViYmY2YzVkMzc5MDlhMWFmNzZkMGRhYmY0MjMwNzZmODRkMGU2MTM0OTdhMmFiYWM1MjcyMDc5MTRiMjUyNiIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTgiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-9",
+  "actions": [
+   {
+    "gather": 0,
+    "hire": 6,
+    "craft": 0
+   },
+   {
+    "gather": 3,
+    "hire": 3,
+    "craft": 0
+   },
+   {
+    "gather": 3,
+    "hire": 3,
+    "craft": 0
+   },
+   {
+    "gather": 5,
+    "hire": 1,
+    "craft": 0
+   },
+   {
+    "gather": 2,
+    "hire": 3,
+    "craft": 1
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-9",
+   "genesis_hash": "sha256:cd61f52ccbc59f3c78f0265cb01bc3181eac032a619a0fd83a204011be62b8f7",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 0,
+      "hire": 6,
+      "craft": 0
+     },
+     "state_hash": "sha256:fc9230faceba4782fedcae8e0cdd24d2451c39dcf4f86cb8296ecab6009f1658"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 3,
+      "hire": 3,
+      "craft": 0
+     },
+     "state_hash": "sha256:bdb5d92255038f6aa9fa6d0320fe049a0b31ace9db998b6b3d82a00cff906ec0"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 3,
+      "hire": 3,
+      "craft": 0
+     },
+     "state_hash": "sha256:cafd6069ba3391a9c425a581e3004dff99dcd28b3b289b8846c65024112937c3"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 5,
+      "hire": 1,
+      "craft": 0
+     },
+     "state_hash": "sha256:e21353c27fc5cae0b2e254adae6f35f1a5020666b1d23ab7e8bccfbc1e87f1b2"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 2,
+      "hire": 3,
+      "craft": 1
+     },
+     "state_hash": "sha256:49e8aa1f157b92a18a4fa4b75e0b820f1c0a2bf721aa32de5b868ee9bd5c81e6"
+    }
+   ],
+   "final_hash": "sha256:49e8aa1f157b92a18a4fa4b75e0b820f1c0a2bf721aa32de5b868ee9bd5c81e6",
+   "final_state": {
+    "turn": 5,
+    "materials": 10,
+    "incoming": 2,
+    "warriors": 5,
+    "gear": 0,
+    "yield": 3
+   },
+   "score": {
+    "damage": 10
+   },
+   "run_hash": "sha256:1793df8dd114ce1ae0dc93994496af22578a61e8894166ac1514ee973fd7d6a3"
+  },
+  "share": "eyJhIjpbWzAsNiwwXSxbMywzLDBdLFszLDMsMF0sWzUsMSwwXSxbMiwzLDFdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6NDllOGFhMWYxNTdiOTJhMThhNGZhNGI3NWUwYjgyMGYxYzBhMmJmNzIxYWEzMmRlNWI4NjhlZTliZDVjODFlNiIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTkiLCJ2IjoiMC4xLjAifQ"
+ },
+ {
+  "seed": "vec-10",
+  "actions": [
+   {
+    "gather": 1,
+    "hire": 1,
+    "craft": 4
+   },
+   {
+    "gather": 0,
+    "hire": 5,
+    "craft": 1
+   },
+   {
+    "gather": 5,
+    "hire": 1,
+    "craft": 0
+   },
+   {
+    "gather": 1,
+    "hire": 3,
+    "craft": 2
+   },
+   {
+    "gather": 1,
+    "hire": 1,
+    "craft": 4
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-10",
+   "genesis_hash": "sha256:6c7b3937c8112d6c06dd7ba1272b3a62a24912558d4d0c43b6ab63417968b70a",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 1,
+      "hire": 1,
+      "craft": 4
+     },
+     "state_hash": "sha256:a6d9af3080625b075b481d1e8fcd11ede75448edc7db919c83ad582cbe00cec1"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 0,
+      "hire": 5,
+      "craft": 1
+     },
+     "state_hash": "sha256:667741385039833c81bf97f0bb029e2107359f38af74dd572e125d6fec5eb69a"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 5,
+      "hire": 1,
+      "craft": 0
+     },
+     "state_hash": "sha256:d3b0c6fbae03c172e1396f03787729d832c648135b79779c806f6a6c25a0aefd"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 1,
+      "hire": 3,
+      "craft": 2
+     },
+     "state_hash": "sha256:914536071ed8c9bf6e1b767886f8503ef8ab9bc58b23cb3c6909637f5bca7e4c"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 1,
+      "hire": 1,
+      "craft": 4
+     },
+     "state_hash": "sha256:53a1223dd10c4a2095cd0e61736e65fc43bae7707a9b4be918f4506ac4452a4e"
+    }
+   ],
+   "final_hash": "sha256:53a1223dd10c4a2095cd0e61736e65fc43bae7707a9b4be918f4506ac4452a4e",
+   "final_state": {
+    "turn": 5,
+    "materials": 2,
+    "incoming": 2,
+    "warriors": 3,
+    "gear": 3,
+    "yield": 2
+   },
+   "score": {
+    "damage": 15
+   },
+   "run_hash": "sha256:cdc25c8e910a9d506037195524ab7deec1f59341d513db3c97675d528f5578d7"
+  },
+  "share": "eyJhIjpbWzEsMSw0XSxbMCw1LDFdLFs1LDEsMF0sWzEsMywyXSxbMSwxLDRdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6NTNhMTIyM2RkMTBjNGEyMDk1Y2QwZTYxNzM2ZTY1ZmM0M2JhZTc3MDdhOWI0YmU5MThmNDUwNmFjNDQ1MmE0ZSIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTEwIiwidiI6IjAuMS4wIn0"
+ },
+ {
+  "seed": "vec-11",
+  "actions": [
+   {
+    "gather": 6,
+    "hire": 0,
+    "craft": 0
+   },
+   {
+    "gather": 2,
+    "hire": 3,
+    "craft": 1
+   },
+   {
+    "gather": 6,
+    "hire": 0,
+    "craft": 0
+   },
+   {
+    "gather": 3,
+    "hire": 2,
+    "craft": 1
+   },
+   {
+    "gather": 0,
+    "hire": 0,
+    "craft": 6
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-11",
+   "genesis_hash": "sha256:6587b05fceee44d80e6f214085c4084fb274c1cb6a033cb124362565ba9b2bf3",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 6,
+      "hire": 0,
+      "craft": 0
+     },
+     "state_hash": "sha256:7d29532746c8579f729d72b8cdc402154edbf34137ab37c37008dedb5d4f8b7c"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 2,
+      "hire": 3,
+      "craft": 1
+     },
+     "state_hash": "sha256:c8520b873a59c90e900c97971e4e40d81b06064eb86a9ec7841669930073eb8f"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 6,
+      "hire": 0,
+      "craft": 0
+     },
+     "state_hash": "sha256:5011a93fb588b40d56d4542eb147ce35bab23853212ee6eb2cbbca9aa55c5e31"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 3,
+      "hire": 2,
+      "craft": 1
+     },
+     "state_hash": "sha256:f5937af81b6ad8920f9dbf5fd04252dd2b5071d6bb718f2d4a6c30d79a239d5e"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 0,
+      "hire": 0,
+      "craft": 6
+     },
+     "state_hash": "sha256:df07519a7374f6c7dc5a7a80d8d35f4eec5569946b3cd0e721c26fe619f9e04a"
+    }
+   ],
+   "final_hash": "sha256:df07519a7374f6c7dc5a7a80d8d35f4eec5569946b3cd0e721c26fe619f9e04a",
+   "final_state": {
+    "turn": 5,
+    "materials": 9,
+    "incoming": 0,
+    "warriors": 4,
+    "gear": 7,
+    "yield": 2
+   },
+   "score": {
+    "damage": 20
+   },
+   "run_hash": "sha256:167b9758246915b5f9d54cdab3198acc3a33615e6a565de6169fa6c5af54a1c7"
+  },
+  "share": "eyJhIjpbWzYsMCwwXSxbMiwzLDFdLFs2LDAsMF0sWzMsMiwxXSxbMCwwLDZdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6ZGYwNzUxOWE3Mzc0ZjZjN2RjNWE3YTgwZDhkMzVmNGVlYzU1Njk5NDZiM2NkMGU3MjFjMjZmZTYxOWY5ZTA0YSIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTExIiwidiI6IjAuMS4wIn0"
+ },
+ {
+  "seed": "vec-12",
+  "actions": [
+   {
+    "gather": 1,
+    "hire": 2,
+    "craft": 3
+   },
+   {
+    "gather": 0,
+    "hire": 2,
+    "craft": 4
+   },
+   {
+    "gather": 0,
+    "hire": 6,
+    "craft": 0
+   },
+   {
+    "gather": 1,
+    "hire": 3,
+    "craft": 2
+   },
+   {
+    "gather": 0,
+    "hire": 6,
+    "craft": 0
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-12",
+   "genesis_hash": "sha256:6b23ce0aae7f2e295db90c04d2da8630ef8311927eba6e060ed27807de64796a",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 1,
+      "hire": 2,
+      "craft": 3
+     },
+     "state_hash": "sha256:a05eaacc73d9826f2621e4efcffe2e41ef739243dddebe479d2609c1a5235a12"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 0,
+      "hire": 2,
+      "craft": 4
+     },
+     "state_hash": "sha256:295b34b6ff1f2cba05ea5f31d914601c7fca50c72009fc6c0c908a8a8b67ac46"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 0,
+      "hire": 6,
+      "craft": 0
+     },
+     "state_hash": "sha256:7123875e856a73b15b29ea7385213713917f345d141186bdb8435a8fcc11b569"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 1,
+      "hire": 3,
+      "craft": 2
+     },
+     "state_hash": "sha256:dfdc62d91bc8c7bf1b7540ddd0301353f205caa6cd7a89669c9081f2d674c54a"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 0,
+      "hire": 6,
+      "craft": 0
+     },
+     "state_hash": "sha256:6bae5739047a614b65f10cbfb55ee2497d3a3e7de6941274a9a06925fd1abfdb"
+    }
+   ],
+   "final_hash": "sha256:6bae5739047a614b65f10cbfb55ee2497d3a3e7de6941274a9a06925fd1abfdb",
+   "final_state": {
+    "turn": 5,
+    "materials": 3,
+    "incoming": 0,
+    "warriors": 2,
+    "gear": 0,
+    "yield": 2
+   },
+   "score": {
+    "damage": 4
+   },
+   "run_hash": "sha256:b7bc898c83a6212cd74fc4513ca48a18b4b28cb5fb4b827bec4b339a1fabd9dd"
+  },
+  "share": "eyJhIjpbWzEsMiwzXSxbMCwyLDRdLFswLDYsMF0sWzEsMywyXSxbMCw2LDBdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6NmJhZTU3MzkwNDdhNjE0YjY1ZjEwY2JmYjU1ZWUyNDk3ZDNhM2U3ZGU2OTQxMjc0YTlhMDY5MjVmZDFhYmZkYiIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTEyIiwidiI6IjAuMS4wIn0"
+ },
+ {
+  "seed": "vec-13",
+  "actions": [
+   {
+    "gather": 5,
+    "hire": 1,
+    "craft": 0
+   },
+   {
+    "gather": 2,
+    "hire": 0,
+    "craft": 4
+   },
+   {
+    "gather": 0,
+    "hire": 3,
+    "craft": 3
+   },
+   {
+    "gather": 2,
+    "hire": 2,
+    "craft": 2
+   },
+   {
+    "gather": 0,
+    "hire": 6,
+    "craft": 0
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-13",
+   "genesis_hash": "sha256:a64845e5048796a08aa159b3503c286b0925c31437ce1109790310662c994c9b",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 5,
+      "hire": 1,
+      "craft": 0
+     },
+     "state_hash": "sha256:ffbd97e09783ac4a4b07659a723d1fa62c1e6394d852baa8f820f049084091cb"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 2,
+      "hire": 0,
+      "craft": 4
+     },
+     "state_hash": "sha256:0e4c03a778df55217bf5de900b93cfe7601c84771ce149070540fdf890d92b7f"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 0,
+      "hire": 3,
+      "craft": 3
+     },
+     "state_hash": "sha256:0258c4b3ed5e616120082699468c2374665931ecc08fc98c0030cac06b83de11"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 2,
+      "hire": 2,
+      "craft": 2
+     },
+     "state_hash": "sha256:5cb14dd0c70b1dde40ca0f498260bb4066d86f334fcb216997053316e439dbb7"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 0,
+      "hire": 6,
+      "craft": 0
+     },
+     "state_hash": "sha256:bab4f453f8b8bf41b10e2ec8231e3af120fd1d403f7d75fc521c51d351409f05"
+    }
+   ],
+   "final_hash": "sha256:bab4f453f8b8bf41b10e2ec8231e3af120fd1d403f7d75fc521c51d351409f05",
+   "final_state": {
+    "turn": 5,
+    "materials": 7,
+    "incoming": 0,
+    "warriors": 6,
+    "gear": 0,
+    "yield": 2
+   },
+   "score": {
+    "damage": 12
+   },
+   "run_hash": "sha256:c7edf280058a32ef8aab48042b946fd9704242aea5b54fec42cafce91600f8e7"
+  },
+  "share": "eyJhIjpbWzUsMSwwXSxbMiwwLDRdLFswLDMsM10sWzIsMiwyXSxbMCw2LDBdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6YmFiNGY0NTNmOGI4YmY0MWIxMGUyZWM4MjMxZTNhZjEyMGZkMWQ0MDNmN2Q3NWZjNTIxYzUxZDM1MTQwOWYwNSIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTEzIiwidiI6IjAuMS4wIn0"
+ },
+ {
+  "seed": "vec-14",
+  "actions": [
+   {
+    "gather": 3,
+    "hire": 2,
+    "craft": 1
+   },
+   {
+    "gather": 0,
+    "hire": 1,
+    "craft": 5
+   },
+   {
+    "gather": 1,
+    "hire": 2,
+    "craft": 3
+   },
+   {
+    "gather": 3,
+    "hire": 2,
+    "craft": 1
+   },
+   {
+    "gather": 1,
+    "hire": 3,
+    "craft": 2
+   }
+  ],
+  "record": {
+   "format": "guildor.run/1",
+   "ruleset": {
+    "id": "guildor.sandbox",
+    "version": "0.1.0",
+    "spec": {
+     "turns": 5,
+     "energy": 6,
+     "start_materials": 4,
+     "yield_min": 1,
+     "yield_max": 3,
+     "hire_cost": 2,
+     "craft_cost": 3,
+     "warrior_dmg": 2,
+     "gear_dmg": 3
+    },
+    "hash": "sha256:d3ba999f166d64f993a9b9de83f9a297babdbd16aa875f65e2d79efe93cb6174"
+   },
+   "seed": "vec-14",
+   "genesis_hash": "sha256:b0697ec7ea93067b32e7d29ca49af7e430576c3c0a039e038610703d67df0b95",
+   "turns": [
+    {
+     "turn": 1,
+     "action": {
+      "gather": 3,
+      "hire": 2,
+      "craft": 1
+     },
+     "state_hash": "sha256:20eaa054e447118c609fcb76f6543a262a1fe3eb19e4e2574e46512da9470ba8"
+    },
+    {
+     "turn": 2,
+     "action": {
+      "gather": 0,
+      "hire": 1,
+      "craft": 5
+     },
+     "state_hash": "sha256:c5ae8f66cc273e2972ab5854fcdf62f1d83220c439ce6671807f82d72f2ea342"
+    },
+    {
+     "turn": 3,
+     "action": {
+      "gather": 1,
+      "hire": 2,
+      "craft": 3
+     },
+     "state_hash": "sha256:3b2eebde2b182dcf242f1594c85df84ed4725059d87eba09e663293e46c9bd65"
+    },
+    {
+     "turn": 4,
+     "action": {
+      "gather": 3,
+      "hire": 2,
+      "craft": 1
+     },
+     "state_hash": "sha256:6eda9ae84adc04814f0591b2bbf3229132b3dfedf1b68c355d32f8f1a9a12c2f"
+    },
+    {
+     "turn": 5,
+     "action": {
+      "gather": 1,
+      "hire": 3,
+      "craft": 2
+     },
+     "state_hash": "sha256:afeb29dbf4783c61167e186d3aa6ca044d46eebdb30087e10431e61c5f3a4685"
+    }
+   ],
+   "final_hash": "sha256:afeb29dbf4783c61167e186d3aa6ca044d46eebdb30087e10431e61c5f3a4685",
+   "final_state": {
+    "turn": 5,
+    "materials": 7,
+    "incoming": 1,
+    "warriors": 5,
+    "gear": 1,
+    "yield": 1
+   },
+   "score": {
+    "damage": 13
+   },
+   "run_hash": "sha256:41d24b7b42fa4154cf404132383dd73267d19f4385e169af390e57dae91328a9"
+  },
+  "share": "eyJhIjpbWzMsMiwxXSxbMCwxLDVdLFsxLDIsM10sWzMsMiwxXSxbMSwzLDJdXSwiZiI6Imd1aWxkb3Iuc2hhcmUvMSIsImgiOiJzaGEyNTY6YWZlYjI5ZGJmNDc4M2M2MTE2N2UxODZkM2FhNmNhMDQ0ZDQ2ZWViZGIzMDA4N2UxMDQzMWU2MWM1ZjNhNDY4NSIsInIiOiJndWlsZG9yLnNhbmRib3giLCJzIjoidmVjLTE0IiwidiI6IjAuMS4wIn0"
+ }
+]
